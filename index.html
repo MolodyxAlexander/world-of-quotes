@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Мир Цитат - Главная</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+        }
+        header, footer {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header {
+            top: 0;
+        }
+        footer {
+            bottom: 0;
+        }
+        .quote {
+            position: absolute;
+            font-size: 18px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .quote:hover {
+            transform: scale(1.1);
+        }
+        .welcome-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            text-align: center;
+            color: #333;
+        }
+
+        @media (max-width: 1024px) {
+            .quote {
+                font-size: 16px;
+            }
+            .welcome-text {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="authors.html">Авторы</a></li>
+            <li><a href="themes.html">Темы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Цитаты слева -->
+<div class="quote" style="top: 20%; left: 2%;">"Трудности — это лишь возможность, подготовленная Богом."</div>
+<div class="quote" style="top: 40%; left: 2%;">"Секрет успеха в том, чтобы начать."</div>
+<div class="quote" style="top: 60%; left: 2%;">"Сложности — это возможность проявить силу."</div>
+<div class="quote" style="top: 75%; left: 2%;">"Каждый день — это новая возможность."</div>
+
+<!-- Цитаты справа -->
+<div class="quote" style="top: 20%; right: 2%;">"Никто не ценит того, чего слишком много."</div>
+<div class="quote" style="top: 40%; right: 2%;">"Кто вопросов не задает, тот лжи не слышит."</div>
+<div class="quote" style="top: 60%; right: 2%;">"Знание — это сила, но действие — это реально."</div>
+<div class="quote" style="top: 75%; right: 2%;">"Нет ничего невозможного."</div>
+
+<!-- Текст в центре -->
+<div class="welcome-text">
+    <h1>Добро пожаловать в </h1>
+    <h1>«Мир цитат»</h1>
+    <p>Ищете вдохновение?Нужны слова, чтобы выразить свои чувства?</p>
+    <p>Или просто хотите насладиться мудрыми высказываниями великих людей? </p>
+    <p>Вы попали по адресу! Наш сайт содержит обширную коллекцию цитат на все случаи жизни.</p>
+</div>
+
+<footer>
+    <p>© 2025 Мир Цитат. Все права защищены.</p>
+    <p>Контактная информация: email@example.com</p>
+</footer>
+
+</body>
+</html>

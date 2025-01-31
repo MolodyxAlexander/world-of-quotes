@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* светло-серый */
+    color:#000; /* черный */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #98b2ce; /* нежно-голубой */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    background-color: #98b2ce; /* нежно-голубой */
+    color: black;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Добавьте здесь дополнительные стили для разных страниц по необходимости */
